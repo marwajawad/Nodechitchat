@@ -25,8 +25,5 @@ io.sockets.on('connection', function (socket, username) {
     }); 
 });
 
-//server.listen(8080);
+server.listen(8080);
 
-serve.listen(app.get('port'), function () {
-    console.log('Express server listening on port ' + app.get('port'));
-});
